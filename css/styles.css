@@ -1,0 +1,57 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-bg-color: #e5e5e5;
+  --button-bg-color: #f5f4fa;
+  --white-text-color: #fff;
+  --futter-bg-color: #2f303a;
+}
+
+/* Body */
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* header */
+.logo .web {
+  color: var(--accent-color);
+}
+.logo .studio {
+  color: #000000;
+}
+
+/* маркеры */
+.list {
+  list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-cotacts .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* link hover */
+.site-cotacts .link:hover,
+.site-cotacts .link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+
+/* особенности */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* чем мы  */
+.feature-list .title {
+  color: var(--title-text-color);
+}
