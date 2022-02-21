@@ -7,6 +7,7 @@
   --white-text-color: #fff;
   --futter-bg-color: #2f303a;
 }
+/* Стили для index.html */
 
 /* Body */
 body {
@@ -15,6 +16,8 @@ body {
 }
 
 /* header */
+/* Цвета логотипа */
+
 .logo .web {
   color: var(--accent-color);
 }
@@ -22,29 +25,42 @@ body {
   color: #000000;
 }
 
-/* маркеры */
+/* убрать маркеры на всех списках*/
 .list {
   list-style: none;
 }
 
 /* site-nav */
+
 .site-nav .link {
   color: var(--title-text-color);
 }
-.site-cotacts .link {
+.site-contacts .link {
   color: var(--primary-text-color);
 }
+
+/* ховер ифокус для навигации сайта */
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-
-/* link hover */
-.site-cotacts .link:hover,
-.site-cotacts .link:focus {
+.site-contacts .link:hover,
+.site-contacts .link:focus {
   color: var(--accent-color);
 }
+
+/* цвет активной страницы */
+
+.site-nav .link.curent {
+  color: var(--accent-color);
+}
+
 /* hero */
+
+.hero-title {
+  color: var(--white-text-color);
+}
 
 /* особенности */
 .section-title {
@@ -61,24 +77,43 @@ body {
 }
 
 /* footer */
-.site-cotacts .address {
+.site-contacts .address {
   color: var(--white-text-color);
 }
-.site-cotacts .mailto {
+
+.site-contacts .mailto {
   color: rgba(255, 255, 255, 0.6);
 }
-.site-cotacts .tel {
+.site-contacts .tel {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* PORTFOLIO page */
-.button {
-  color: var(--title-text-color);
-}
+/* СТРАНИЦА portfolio.html */
 
 .portfolio .title {
   color: var(--title-text-color);
 }
 .project .title {
   color: var(--title-text-color);
+}
+
+/* Стилизация кнопок  */
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--button-bg-color);
+}
+
+/* ховер и фокус для списка кнопок */
+.list .link:hover,
+.list .link:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
 }
