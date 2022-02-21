@@ -51,7 +51,34 @@ body {
   color: var(--title-text-color);
 }
 
-/* чем мы  */
-.feature-list .title {
+.feature .title {
+  color: var(--title-text-color);
+}
+
+/* team */
+.team .title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+.site-cotacts .address {
+  color: var(--white-text-color);
+}
+.site-cotacts .mailto {
+  color: rgba(255, 255, 255, 0.6);
+}
+.site-cotacts .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* PORTFOLIO page */
+.button {
+  color: var(--title-text-color);
+}
+
+.portfolio .title {
+  color: var(--title-text-color);
+}
+.project .title {
   color: var(--title-text-color);
 }
