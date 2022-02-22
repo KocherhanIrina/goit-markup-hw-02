@@ -133,7 +133,7 @@ body {
   text-align: center;
 }
 
-.feature .title {
+.feature-title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -170,6 +170,7 @@ body {
 
   text-decoration: none;
 }
+
 .site-contacts .address:hover,
 .site-contacts .address:hover {
   color: var(--accent-color);
