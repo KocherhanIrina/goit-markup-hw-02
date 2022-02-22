@@ -77,7 +77,7 @@ body {
 
 /* site-nav */
 
-.site-nav .link {
+.site-nav .link-contact {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -87,7 +87,7 @@ body {
   text-decoration: none;
 }
 
-.site-contacts .link {
+.site-contacts .link-contact {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -99,19 +99,14 @@ body {
 
 /* ховер ифокус для навигации сайта */
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.site-contacts .link:hover,
-.site-contacts .link:focus {
+.link-contact:hover,
+.link-contact:focus {
   color: var(--accent-color);
 }
 
 /* цвет активной страницы */
 
-.site-nav .link.curent {
+.site-nav .curent {
   color: var(--accent-color);
 }
 
