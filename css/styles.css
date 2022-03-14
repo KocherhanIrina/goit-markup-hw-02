@@ -209,6 +209,10 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.project .text {
+  font-size: 16px;
+  line-height: 1.88;
+}
 
 .portfolio .text {
   font-size: 16px;
